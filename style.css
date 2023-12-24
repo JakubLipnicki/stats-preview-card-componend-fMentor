@@ -14,16 +14,26 @@ body{
 img{
     width: 100%;
     border-radius: 10px 10px 0 0;
+    opacity: 0.6;
+    display: block;
 }
 h1{
     color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    font-size: 1.8em;
 }
 h2{
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    margin: 1.7em 0 0.3em 0;
+    letter-spacing: 0.05em;
+}
+.image-bg{
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 10px 10px 0 0;
 }
 .container{
     background-color: hsl(244, 38%, 16%);
@@ -36,17 +46,24 @@ h2{
     border-radius: 10px;
 }
 .down-section{
-    padding: 2em;
+    padding: 1.5em 2.9em 2.5em 2.9em;
 }
 
 #p-description{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin: 0;
+    letter-spacing: 0.04em;
 }
 #stats-desc{
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.6);
+    margin: 0;
+    font-size: 0.84em;
+    letter-spacing: 0.1em;
 }
 
