@@ -66,4 +66,71 @@ h2{
     font-size: 0.84em;
     letter-spacing: 0.1em;
 }
+.hidden-mobile{
+    display: none;
+}
 
+@media screen and (min-width: 1440px){
+    body{
+        
+        overflow: hidden;
+        height: 100vh;
+        margin: 0;
+    }
+    h1{
+        text-align: left;
+        margin-top: 1.5em;
+        padding: 0 0 0 0.75em;
+        font-size: 2.5em;
+        width: 73%;
+        letter-spacing: 0.01em;
+        margin-bottom: 0.65em;
+    }
+    h2{
+        display: inline-block;
+    }
+    .container{
+        flex-direction: row;
+        align-items: start;
+        max-width: 80%;
+    }
+    .down-section{
+        padding: 0;
+        width: 55%;
+        margin-left: 2.6667em;
+    }
+    .hidden-desktop{
+        display: none;
+    }
+    .hidden-mobile{
+        display:block;
+    }
+    img{
+        width: auto;
+        border-radius: 0 10px 10px 0;
+        height: 100%;
+        text-align: right;
+    }
+    #p-description{
+        text-align: left;
+        padding: 0 0 0 1.948em;
+        font-size: 0.97em;
+        width: 67%;
+    }
+    #stats-desc{
+        font-size: 0.8em;
+    }
+    .desktop-layout{
+        display: flex;
+        width: 63%;
+        justify-content: space-between;
+        padding: 3.35em 0 0 1.934em;
+    }
+    .each-column{
+        text-align: left;
+    }
+    .desktop-image-container{
+        background-color: hsl(277, 64%, 61%);
+        border-radius: 0 10px 10px 0;
+    }
+}

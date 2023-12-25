@@ -23,7 +23,7 @@
 <body>
 <section class="container">
   <div class="image-bg">
-    <img src="images/image-header-mobile.jpg" alt="image-header-mobile">
+    <img src="images/image-header-mobile.jpg" class="hidden-desktop" alt="image-header-mobile">
   </div>
   <div class="down-section">
     <h1>
@@ -32,14 +32,24 @@
     <p id="p-description">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
       experience, and overall efficiency.</p>
   
-    <h2>10k+</h2>
-    <p id="stats-desc">COMPANIES</p>
-    <h2>314</h2>
-    <p id="stats-desc">TEMPLATES</p>
-    <h2>12M+</h2>
-    <p id="stats-desc">QUERIES</p>
+    <div class="desktop-layout">
+      <div class="each-column">
+        <h2>10k+</h2>
+        <p id="stats-desc">COMPANIES</p>
+      </div>
+      <div class="each-column">
+        <h2>314</h2>
+        <p id="stats-desc">TEMPLATES</p>
+      </div>
+      <div class="each-column">
+        <h2>12M+</h2>
+        <p id="stats-desc">QUERIES</p>
+      </div>
+    </div>
   </div>
-
+  <div class="desktop-image-container">
+    <img src="images/image-header-desktop.jpg" class="hidden-mobile" alt="image-header-desktop">
+  </div>
  </section>
 
   <!-- <div class="attribution">
